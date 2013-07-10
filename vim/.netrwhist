@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/media'
+let g:netrw_dirhist_2='/home/bitdivision/work/year_4/AEAI/BristolStockExchange'
+let g:netrw_dirhist_3='/home/bitdivision/.config/dunst'
+let g:netrw_dirhist_4='/home/bitdivision/.i3'
+let g:netrw_dirhist_5='/home/bitdivision/work/year_4/Thesis/WriteUp'
+let g:netrw_dirhist_6='/home/bitdivision/dotfiles/ncmpcpp'

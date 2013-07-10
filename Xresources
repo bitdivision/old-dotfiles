@@ -1,0 +1,27 @@
+ URxvt*scrollBar:                       false
+ URxvt*cursorColor:                     darkorange1
+ URxvt*foreground:                      grey75
+ URxvt*background:                      grey15
+ URxvt*saveLines:                       7777
+ URxvt*cursorBlink:                     false
+ URxvt*termName:                        rxvt-256color
+ URxvt*font:                            xft:Dejavu Sans Mono:pixelsize=12
+ URxvt*boldFont:                        xft:Dejavu Sans Mono:pixelsize=12
+ URxvt*colorBD:                         orange
+ URxvt*transparent:                     true
+ URxvt*shading:                         20
+ URxvt*fading:				            15
+ xvt*iso14755_52:			            false
+ URxvt.perl-ext-common:                 matcher
+ URxvt.urlLauncher:                     urlLauncher $0
+ !URxvt*matcher.pattern.1:              \\b(mailto:)[\\w\-\@;\/?:&=%\$_.+!*\x27(),~#]+ [\\w\-\@;\/?:&=%\$_+!*\x27()~]
+ !URxvt.matcher.launcher.1:             claws-mail
+ URxvt*matcher.pattern.1:               \\bhttps?:\/\/(?:(?:www.youtube|youtube).com\/watch\\?.*v=|youtu.be/)([\\w-]*)
+ URxvt*matcher.launcher.1:              urlLauncher -video $0
+ URxvt*matcher.pattern.2:               \\bhttps?:\/\/vimeo.com\/([\\w-]*)
+ URxvt*matcher.launcher.2:              urlLauncher -video $0
+ URxvt*matcher.pattern.3:               \\bhttps?:\/\/[\\w-.]*\/[\\w./?&@#-]*.(?i)(mp3|ogg|wav|wma|flv)
+ URxvt*matcher.launcher.3:              urlLauncher -audio $0
+ URxvt*matcher.pattern.4:               \\bhttps?:\/\/[\\w-.]*\/[\\w./?&@#-]*.(?i)(jpg|jpeg|png)
+ URxvt*matcher.launcher.4:              urlLauncher -image $0
+
