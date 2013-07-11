@@ -14,7 +14,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="vimrc zshrc Xresources i3 i3status.conf mpdconf ncmpcpp vim oh-my-zsh "    # list of files/folders to symlink in homedir
+files="vimrc zshrc Xresources i3 i3status.conf mpdconf ncmpcpp vim oh-my-zsh config/dunstrc"    # list of files/folders to symlink in homedir
 
 ##########
 

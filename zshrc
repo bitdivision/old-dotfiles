@@ -21,7 +21,7 @@ plugins=(git,archlinux,github)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/share/java/apache-ant/bin:/opt/drbl/bin:/opt/drbl/sbin
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/share/java/apache-ant/bin:/opt/drbl/bin:/opt/drbl/sbin:/usr/bin/core_perl
 
 export PYTHON=/usr
 
